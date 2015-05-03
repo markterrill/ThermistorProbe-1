@@ -1,0 +1,7 @@
+{
+  "name": "thermistorprobe-fork",
+  "author": "Joe Goggins <joe@spark.io>",
+  "license": "MIT",
+  "version": "0.0.10",
+  "description": "A fork of engirati's library that has a spark.json"
+}
