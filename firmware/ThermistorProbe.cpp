@@ -2,21 +2,21 @@
 // Contributions and influence from @BDub and @avidan
 // httpscommunity.spark.iotthermistors-and-the-spark-core1276
 
-#include ThermistorProbe.h
-#include math.h
+#include "ThermistorProbe.h"
+#include "math.h"
 
 //  TermisterProbe constructor
 //  pur - Pullup resistor value in ohms
 //  adcRef - ADC reference value
-ThermistorProbeThermistorProbe(double pur, int adc)
+ThermistorProbe(double pur, int adc)
 {
     _pur = pur;
     _adc = adc;
 }
 
-ThermistorProbe~ThermistorProbe() {
-    ;;;
-}
+//ThermistorProbe~ThermistorProbe() {
+//    ;;;
+//}
 
 //  Returns the temperature in Kelvin based off of the Steinhart-Hart equation.
 //  httpen.wikipedia.orgwikiSteinhart%E2%80%93Hart_equation
